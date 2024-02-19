@@ -10,27 +10,26 @@ import {
 
 const Header = () => {
   return (
-    <Navbar fluid rounded className="bg-transparent">
+    <Navbar fluid rounded className="bg-transparent pt-4">
       <NavbarBrand href="/">
         <img
-          src=""
-          className="mr-3 h-6 sm:h-9"
-          alt="ByteVision Logo"
+          src="/images/logo.png"
+          className="mr-3 h-6 sm:h-12"
+          alt="Logo"
         />
-        <span className="self-center whitespace-nowrap text-xl font-semibold">
+        {/* <span className="self-center whitespace-nowrap text-xl font-semibold">
           ByteVision Solutions
-        </span>
+        </span> */}
       </NavbarBrand>
       <div className="flex md:order-2">
-        <Button>Get started</Button>
+        <Button className='nav-btn bg-[--primary] transition-all duration-500 delay-50'>Contact Us</Button>
         <NavbarToggle />
       </div>
       <NavbarCollapse>
         <NavbarLink href="/" className='text-gray'>Home</NavbarLink>
-        <NavbarLink href="/about" className='text-gray'>About Us</NavbarLink>
-        {/* <NavbarLink href="#">Services</NavbarLink> */}
-        {/* <NavbarLink href="#">Pricing</NavbarLink> */}
-        <NavbarLink href="/contact" className='text-gray'>Contact Us</NavbarLink>
+        <NavbarLink href="/about" className='text-gray'>About</NavbarLink>
+        <NavbarLink href="/" className='text-gray'>Service</NavbarLink>
+        <NavbarLink href="/" className='text-gray'>Portfolio</NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );
