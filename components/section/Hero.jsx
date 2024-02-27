@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-3 py-10 sm:pt-20 sm:pb-10 px-6 sm:px-14">
+    <section className="grid grid-cols-1 md:grid-cols-3 py-10 sm:pt-20 sm:pb-10 px-6 sm:px-14 text-white">
       <div className="col-span-1">
         <div className="flex items-center justify-between w-[90%] sm:w-[80%] bg-gray-100/[0.1] py-2 px-4 rounded-full">
           <div className="h-4 w-4 bg-[--secondary] rounded-full me-2"></div>
@@ -22,8 +22,8 @@ const Hero = () => {
       <div className="col-span-1">
         <Image
           src="/images/Image-Hero-1.png"
-          width={700}
-          height={500}
+          width={900}
+          height={700}
           alt="two man working on laptop"
         />
       </div>
