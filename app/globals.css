@@ -16,3 +16,10 @@ body {
 .nav-btn:hover{
   background-color: var(--secondary) !important;
 }
+
+.gradient-text {
+  background: linear-gradient(180deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

@@ -4,7 +4,7 @@ import Image from "next/image";
 function Sectionabout() {
     return (
         <>
-            <div className='flex flex-col md:flex-row  w-[90%] m-auto rounded-lg md:p-8 p-1 bg-gradient-to-br from-[--secondary] to-[--primary]'>
+            <div className='flex flex-col md:flex-row  w-[90%] m-auto mb-8 rounded-lg md:p-8 p-1 bg-gradient-to-br from-[--secondary] to-[--primary]'>
                 <div>
                     <div>
                         <Image
