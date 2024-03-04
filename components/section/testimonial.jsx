@@ -7,7 +7,7 @@ import { Avatar, Blockquote } from "flowbite-react";
 function Testimonial() {
   return (
     <>
-      <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 pb-8">
+      <div className="h-96 sm:h-96 xl:h-80 2xl:h-96 pt-16 mb-[4%]">
         <Carousel>
           <figure className="mx-auto max-w-screen-md text-center">
             <svg
@@ -26,13 +26,8 @@ function Testimonial() {
                 dashboard. Perfect choice for your next SaaS application.
               </p>
             </Blockquote>
-            <figcaption className="mt-6 flex items-center justify-center space-x-3">
-              <Avatar
-                rounded
-                size="xs"
-                img="/images/people/profile-picture-5.jpg"
-                alt="profile picture"
-              />
+            <figcaption className="mt-6 pb-8 flex items-center justify-center space-x-3">
+             
               <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                 <cite className="pr-3 font-medium text-white">
                   Micheal Gough
@@ -61,13 +56,8 @@ function Testimonial() {
               dashboard. Perfect choice for your next SaaS application.
             </p>
           </Blockquote>
-          <figcaption className="mt-6 flex items-center justify-center space-x-3">
-            <Avatar
-              rounded
-              size="xs"
-              img="/images/people/profile-picture-5.jpg"
-              alt="profile picture"
-            />
+          <figcaption className="mt-6 pb-8 flex items-center justify-center space-x-3">
+           
             <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
               <cite className="pr-3 font-medium text-white">
                 Micheal Gough
@@ -96,13 +86,8 @@ function Testimonial() {
             dashboard. Perfect choice for your next SaaS application.
           </p>
         </Blockquote>
-        <figcaption className="mt-6 flex items-center justify-center space-x-3">
-          <Avatar
-            rounded
-            size="xs"
-            img="/images/people/profile-picture-5.jpg"
-            alt="profile picture"
-          />
+        <figcaption className="mt-6 pb-8 flex items-center justify-center space-x-3">
+          
           <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
             <cite className="pr-3 font-medium text-white">
               Micheal Gough

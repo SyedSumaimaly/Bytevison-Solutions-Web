@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 
-function contactus() {
+function Contactus() {
   return (
     <>
-      <div className="w-[90%] m-auto  gap-2 flex flex-col md:flex-row pb-4">
+      <div className="w-[90%] m-auto  gap-2 flex flex-col md:flex-row pb-16">
         <div className="w-full md:w-[50%] md:pb-0 pb-4">
           <Image
             src="/images/Form-Images-1.png"
@@ -119,4 +119,4 @@ function contactus() {
   );
 }
 
-export default contactus;
+export default Contactus;

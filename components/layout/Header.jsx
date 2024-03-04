@@ -8,14 +8,14 @@ const Header = () => {
         <img src="/images/logo.png" className="mr-3 h-6 sm:h-12" alt="Logo" />
       </NavbarBrand>
       <div className="flex md:order-2">
-        <Button className='nav-btn bg-[--primary] transition-all duration-500 delay-50'>Contact Us</Button>
+        <Button className='nav-btn bg-[--primary] transition-all duration-500 delay-50' href='/contact'>Contact Us</Button>
         <NavbarToggle />
       </div>
       <NavbarCollapse>
-      <NavbarLink href="/" className='text-gray'>Home</NavbarLink>
-        <NavbarLink href="/about" className='text-gray'>About</NavbarLink>
-        <NavbarLink href="/" className='text-gray'>Service</NavbarLink>
-        <NavbarLink href="/" className='text-gray'>Portfolio</NavbarLink>
+      <NavbarLink href="/" className='text-white'>Home</NavbarLink>
+        <NavbarLink href="/about" className='text-white'>About</NavbarLink>
+        <NavbarLink href="/" className='text-white'>Service</NavbarLink>
+        <NavbarLink href="/" className='text-white'>Portfolio</NavbarLink>
       </NavbarCollapse>
     </Navbar>
   )

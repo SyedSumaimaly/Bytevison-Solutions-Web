@@ -7,8 +7,8 @@ const Hero = () => {
     <section className="grid grid-cols-1 md:grid-cols-3 py-10 sm:pt-20 sm:pb-10 px-6 sm:px-14 text-white">
       <div className="col-span-1">
         <div className="flex items-center justify-between w-[90%] sm:w-[80%] bg-gray-100/[0.1] py-2 px-4 rounded-full">
-          <div className="h-4 w-4 bg-[--secondary] rounded-full me-2"></div>
-          <span className="text-sm">We are available for new projects!</span>
+          <div className="h-4 w-4 bg-[--secondary] rounded-full me-2 "></div>
+          <span className="text-sm md:pr-14 pr-10">We are available for new projects!</span>
         </div>
         <div className="py-5 md:py-8 text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold">
           <span>Digital Elegance</span>

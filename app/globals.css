@@ -13,6 +13,11 @@ body {
   background-color: rgb(var(--foregroundtheme-rgb));
 }
 
+.our_story_bg{
+  background: radial-gradient(circle, rgba(238,174,202,0.720500700280112) 0%, rgba(10,147,182,1) 100%);
+
+}
+
 .nav-btn:hover{
   background-color: var(--secondary) !important;
 }
@@ -23,3 +28,5 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+
