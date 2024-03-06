@@ -16,9 +16,9 @@ function Digitalsuccess() {
           designed to propel you to digital excellence
         </p>
        
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex justify-center flex-col lg:flex-row">
           <div className="lg:w-[33%] w-full  mb-4  relative ">
-            <div class="max-w-sm p-6 m-6 bg-white/10 cursor-pointer  transition-all duration-300 hover:bg-gradient-to-b from-[--secondary] to-[--primary] rounded-2xl">
+            <div class="max-w-sm p-6 m-6 bg-white/10  mx-auto cursor-pointer  transition-all duration-300 hover:bg-gradient-to-b from-[--secondary] to-[--primary] rounded-2xl">
               <Image
                 className="mx-auto"
                 src="/images/Service3.png"
@@ -38,7 +38,7 @@ function Digitalsuccess() {
               </p>
             </div>
 
-            <div class="max-w-sm p-6 m-6 bg-white/10 cursor-pointer transition-all duration-300 hover:bg-gradient-to-b from-[--secondary] to-[--primary] rounded-2xl ">
+            <div class="max-w-sm p-6 m-6 bg-white/10 mx-auto cursor-pointer transition-all duration-300 hover:bg-gradient-to-b from-[--secondary] to-[--primary] rounded-2xl ">
               <Image
                 className="mx-auto"
                 src="/images/Service2.png"
@@ -59,7 +59,7 @@ function Digitalsuccess() {
             </div>
           </div>
           <div className="lg:w-[33%] w-full flex items-center">
-            <div class="max-w-sm  p-6 m-6 bg-gradient-to-b from-[--secondary] to-[--primary] rounded-lg ">
+            <div class="max-w-sm mx-auto p-6 m-6 bg-gradient-to-b from-[--secondary] to-[--primary] rounded-lg ">
               <Image
                 className="mx-auto"
                 src="/images/Service1.png"
@@ -80,7 +80,7 @@ function Digitalsuccess() {
             </div>
           </div>
           <div className="lg:w-[33%] w-full ">
-            <div class="max-w-sm p-6 m-6 bg-white/10 cursor-pointer transition-all duration-300 hover:bg-gradient-to-b from-[--secondary] to-[--primary]  rounded-2xl ">
+            <div class="max-w-sm p-6 m-6 bg-white/10 mx-auto cursor-pointer transition-all duration-300 hover:bg-gradient-to-b from-[--secondary] to-[--primary]  rounded-2xl ">
               <Image
                 className="mx-auto"
                 src="/images/Service4.png"
@@ -100,7 +100,7 @@ function Digitalsuccess() {
               </p>
             </div>
 
-            <div class="max-w-sm p-6 m-6 bg-white/10 cursor-pointer transition-all duration-300 hover:bg-gradient-to-b from-[--secondary] to-[--primary]  rounded-2xl  ">
+            <div class="max-w-sm p-6 m-6 bg-white/10 mx-auto cursor-pointer transition-all duration-300 hover:bg-gradient-to-b from-[--secondary] to-[--primary]  rounded-2xl  ">
               <Image
                 className="mx-auto"
                 src="/images/Asset-153.png"

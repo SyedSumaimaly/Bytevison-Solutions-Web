@@ -41,23 +41,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
-        <h3 className="text-lg font-semibold mb-4">Useful Links
-        </h3>
-        <ul class="quick-links">
-        <li><a href="about.html">Blog</a></li>
-        <li><a href="products-left-sidebar.html">Team</a></li>
-        <li><a href="products-left-sidebar-2.html">Faqs</a></li>
-        <li><a href="faqs.html">404</a></li>
-    </ul>
-        <ul className="social-link mt-4">
-          <li><a href="#" className="text-white"><i className='bx bxl-facebook'></i></a></li>
-          <li><a href="#" className="text-white"><i className='bx bxl-twitter'></i></a></li>
-          <li><a href="#" className="text-white"><i className='bx bxl-instagram'></i></a></li>
-          <li><a href="#" className="text-white"><i className='bx bxl-linkedin'></i></a></li>
-          <li><a href="#" className="text-white"><i className='bx bxl-pinterest-alt'></i></a></li>
-        </ul>
-      </div>
+       
 
       <div>
       <h3 className="text-lg font-semibold mb-4">Contact</h3>
@@ -79,7 +63,7 @@ const Footer = () => {
         </div>
         <div className="footer-bottom-area mt-8 border-t border-[--secondary] pt-8">
           <div className="">
-            <p className="text-lg text-center">© Xton is Proudly Owned by <a href="/home" target="_blank" className="text-blue-400">Home</a></p>
+            <p className="text-lg text-center">© Bytevison Solutions is Proudly Owned by <a href="/home" target="_blank" className="text-blue-400">Home</a></p>
             
           </div>
         </div>
