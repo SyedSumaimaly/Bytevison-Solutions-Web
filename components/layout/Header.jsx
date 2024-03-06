@@ -14,8 +14,8 @@ const Header = () => {
       <NavbarCollapse>
       <NavbarLink href="/" className='text-white'>Home</NavbarLink>
         <NavbarLink href="/about" className='text-white'>About</NavbarLink>
-        <NavbarLink href="/" className='text-white'>Service</NavbarLink>
-        <NavbarLink href="/" className='text-white'>Portfolio</NavbarLink>
+        <NavbarLink href="/service" className='text-white'>Service</NavbarLink>
+        <NavbarLink href="/portfolio" className='text-white'>Portfolio</NavbarLink>
       </NavbarCollapse>
     </Navbar>
   )

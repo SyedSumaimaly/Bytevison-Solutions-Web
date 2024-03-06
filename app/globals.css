@@ -4,8 +4,8 @@
 
 :root {
   --foregroundtheme-rgb: 0, 0, 0;
-  --primary: #0a93b6;
-  --secondary: #BD1E7B;
+  --primary: #1d4ed8;
+  --secondary: #3b82f6;
   --lightgray: rgb(206, 206, 206);
 }
 
@@ -28,5 +28,7 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+
 
 

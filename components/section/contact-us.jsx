@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import { FaArrowRight } from "react-icons/fa";
 
 function Contactus() {
   return (
     <>
       <div className="w-[90%] m-auto  gap-2 flex flex-col md:flex-row pb-16">
-        <div className="w-full md:w-[50%] md:pb-0 pb-4">
+        <div className="w-full md:w-[50%] md:pb-0 pb-8">
           <Image
             src="/images/Form-Images-1.png"
             width={400}
@@ -13,106 +14,49 @@ function Contactus() {
             alt="aboutimage"
           />
         </div>
-        <div className="bg-gradient-to-br from-blue-600 to-pink-500 rounded-2xl w-full md:w-[50%]">
+        <div className="bg-white/10 rounded-2xl w-full md:w-[50%]">
           <h1 className="px-4 py-4 md:text-5xl text-4xl font-bold text-white">
             Message Us
           </h1>
-          <div className="m-2 p-2 gap-2 flex flex-col md:flex-row ">
+          <div className="m-2 p-2 gap-8 flex flex-col md:flex-row ">
             <div className="w-full md:w-[50%] ">
-              <div className="mb-2">
-                <label
-                  for="first_name"
-                  class="block mb-2 text-sm font-bold text-white dark:text-white"
-                >
-                  Full Name
-                </label>
-                <input
-                  type="text"
-                  id="first_name"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="Enter Your Full Name"
-                  required
-                />
-              </div>
+            <div class="relative z-0 w-full mb-5 group">
+            <input type="text" name="floating_first_name" id="floating_first_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+            <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">First name</label>
+        </div>
             </div>
             <div className="w-full md:w-[50%] ">
-              <div className="">
-                <label
-                  for="email"
-                  class="block mb-2 text-sm font-bold text-white dark:text-white"
-                >
-                  Email address
-                </label>
-                <input
-                  type="text"
-                  id="text"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="john.doe@company.com"
-                  required
-                />
-              </div>
+            <div class="relative z-0 w-full mb-5 group">
+            <input type="email" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+            <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
+        </div>
             </div>
           </div>
 
-          <div className="m-2 p-2 gap-2 flex flex-col md:flex-row">
+          <div className="m-2 p-2 gap-8 flex flex-col md:flex-row">
             <div className="w-full md:w-[50%] ">
-              <div>
-                <label
-                  for="phone"
-                  class="block mb-2 text-sm font-bold text-white dark:text-white"
-                >
-                  Phone number
-                </label>
-                <input
-                  type="tel"
-                  id="phone"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="123-45-678"
-                  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
-                  required
-                />
-              </div>
+            <div class="relative z-0 w-full mb-5 group">
+            <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+            <label for="floating_phone" class="peer-focus:font-medium absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Phone number (123-456-7890)</label>
+        </div>
             </div>
             <div className="w-full md:w-[50%]">
-              <div class="">
-                <label
-                  for="email"
-                  class="block mb-2 text-sm font-bold text-white dark:text-white"
-                >
-                  Service
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="Select Service"
-                  required
-                />
-              </div>
+            <div class="relative z-0 w-full mb-5 group">
+            <input type="text" name="floating_Services" id="floating_Services" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+            <label for="floating_Services" class="peer-focus:font-medium absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Services (Ex. Google)</label>
+        </div>
             </div>
           </div>
-          <div className="px-4 pb-4">
-            <label
-              for="message"
-              class="block mb-2 text-sm font-bold text-white dark:text-white"
-            >
-              Your message
-            </label>
-            <textarea
-              id="message"
-              rows="4"
-              class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              placeholder="Add Your Message Here..."
-            ></textarea>
-          </div>
-          <div className="flex md:justify-end justify-start pl-2 pb-2 md:pr-2">
-            <button
-              type="button"
-              class="bg-black text-sm sm:text-md py-3 px-5 text-white rounded-lg font-semibold hover:bg-[--secondary]  transition-all duration-300 flex items-center"
-            >
-              know More
-            </button>
-          </div>
+          <div class="relative z-0 w-full px-4 pb-4 group">
+          
+        <textarea type="text" name="floating_company" id="floating_company" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required></textarea>
+        <label for="floating_company" class="peer-focus:font-medium absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
+    </div>
+    <div className="flex justify-end mr-4 pt-6 pb-6">
+    <button className="bg-white  text-[--primary] text-sm sm:text-md py-3 px-5  rounded-full font-semibold hover:bg-[--primary] hover:text-white hover:border hover:border-white  transition-all duration-300 flex items-center">
+      Explore Our Work <FaArrowRight className="ms-2" />
+    </button>
+  </div>
         </div>
       </div>
     </>
