@@ -8,7 +8,7 @@ function Sectionabout() {
       <div className="w-[90%] flex mx-auto rounded-lg">
         <div className="flex flex-col md:flex-row items-center justify-center">
           <div className="w-full md:w-[50%] ">
-            <Image src={"/images/about1.jpeg"} className="rounded-xl" height={600} width={500} alt="about" />
+            <Image src={"/images/About-Us-1.png"} className="rounded-xl" height={600} width={500} alt="about" />
           </div>
 
           <div className="flex flex-col gap-6 p-8 pe-4 justify-center h-full bg-gray-100/[0.1] rounded-3xl w-full md:w-[50%] text-white">
