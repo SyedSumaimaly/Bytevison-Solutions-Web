@@ -1,6 +1,6 @@
 import React from "react";
 
-function Contact({heading}) {
+function Contact({ heading }) {
   return (
     <>
       <div className={`md:w-[90%] w-[85%] m-auto pt-10 `}>
@@ -12,7 +12,6 @@ function Contact({heading}) {
             We create, scale, and refine what you need.
           </p>
         </div>
-     
       </div>
     </>
   );

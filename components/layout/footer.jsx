@@ -26,7 +26,7 @@ const Footer = () => {
           <div>
           <h3 className="text-2xl font-bold mb-4">Company</h3>
           
-          <ul class="quick-links">
+          <ul className="quick-links">
           <li><a href="about.html">Home</a></li>
           <li><a href="products-left-sidebar.html">About Us</a></li>
           <li><a href="contact.html">Portfolio</a></li>
@@ -45,7 +45,7 @@ const Footer = () => {
 
       <div>
       <h3 className="text-lg font-semibold mb-4">Contact</h3>
-      <ul class="quick-links">
+      <ul className="quick-links">
       <li><a href="about.html">info@agency.com</a></li>
       <li><a href="products-left-sidebar.html">+01 556 6969 70</a></li>
       <li><a href="products-left-sidebar-2.html">Mertasari Lane</a></li>

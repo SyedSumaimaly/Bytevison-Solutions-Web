@@ -1,9 +1,9 @@
 import React from 'react'
-import Sectionabout from '@/components/section/Section-about'
-import Contact from '@/components/section/contact'
-import Ourstory from '@/components/section/our-story'
-import Letswork from '@/components/section/lets-work'
-import Testimonial from '@/components/section/testimonial'
+import Sectionabout from '@/components/section/SectionAbout'
+import Contact from '@/components/section/Contact'
+import Ourstory from '@/components/section/OurStory'
+import Letswork from '@/components/section/LetsWork'
+import Testimonial from '@/components/section/Testimonial'
 
 const about = () => {
   return (

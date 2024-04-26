@@ -1,4 +1,4 @@
-import Comingsoon from "@/components/section/coming-soon";
+import Comingsoon from "@/components/section/ComingSoon";
 
 export default function portfolio() {
 

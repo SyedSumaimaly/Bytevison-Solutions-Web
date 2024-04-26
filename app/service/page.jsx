@@ -1,7 +1,7 @@
-import Contact from "@/components/section/contact";
-import Digitalsuccess from "@/components/section/digital-success";
-import Letswork from "@/components/section/lets-work";
-import Plan from "@/components/section/plan";
+import Contact from "@/components/section/Contact";
+import Digitalsuccess from "@/components/section/DigitalSuccess";
+import Letswork from "@/components/section/LetsWork";
+import Plan from "@/components/section/Plan";
 
 export default function service() {
     return(

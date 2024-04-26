@@ -4,8 +4,8 @@
 
 :root {
   --foregroundtheme-rgb: 0, 0, 0;
-  --primary: #1d4ed8;
-  --secondary: #3b82f6;
+  --primary: #04D9FF;
+  --secondary: #04D9FF;
   --lightgray: rgb(206, 206, 206);
 }
 
@@ -13,12 +13,15 @@ body {
   background-color: rgb(var(--foregroundtheme-rgb));
 }
 
-.our_story_bg{
-  background: radial-gradient(circle, rgba(238,174,202,0.720500700280112) 0%, rgba(10,147,182,1) 100%);
-
+.our_story_bg {
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 0.720500700280112) 0%,
+    rgba(10, 147, 182, 1) 100%
+  );
 }
 
-.nav-btn:hover{
+.nav-btn:hover {
   background-color: var(--secondary) !important;
 }
 
@@ -29,6 +32,54 @@ body {
   background-clip: text;
 }
 
+.primary_button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  z-index: 1;
+  background: var(--primary);
+  position: relative;
+  font-weight: 400;
+  font-size: 15px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+}
 
+.primary_button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 6px;
+  background-color: #212121;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+}
 
+.primary_button:hover {
+  color: var(--primary);
+}
 
+.primary_button:hover::before {
+  width: 100%;
+}
+
+.text_animation{
+  animation: spin_animate 7s linear infinite;
+}
+
+@keyframes spin_animate {
+  from {
+    transform: rotate(-0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
